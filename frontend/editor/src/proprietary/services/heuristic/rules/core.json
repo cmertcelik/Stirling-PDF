@@ -4644,7 +4644,7 @@
           "name": "Slides/deck in filename"
         },
         {
-          "pattern": "\\.pptx?|powerpoint|keynote",
+          "pattern": "\\.(pptx?|ppsx)|powerpoint|keynote",
           "weight": 24,
           "name": "Exported presentation file"
         },

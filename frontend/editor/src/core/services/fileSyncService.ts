@@ -88,6 +88,7 @@ function normalizeServerFileName(fileName: string | undefined | null): string {
       "docx",
       "ppt",
       "pptx",
+      "ppsx",
       "xls",
       "xlsx",
       "png",

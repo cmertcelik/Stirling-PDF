@@ -53,6 +53,7 @@ describe("convertUtils", () => {
       // Presentations to PDF
       expect(getEndpointName("pptx", "pdf")).toBe("file-to-pdf");
       expect(getEndpointName("ppt", "pdf")).toBe("file-to-pdf");
+      expect(getEndpointName("ppsx", "pdf")).toBe("file-to-pdf");
       expect(getEndpointName("odp", "pdf")).toBe("file-to-pdf");
 
       // Images to PDF
@@ -139,6 +140,7 @@ describe("convertUtils", () => {
       // Presentations to PDF
       expect(getEndpointUrl("pptx", "pdf")).toBe("/api/v1/convert/file/pdf");
       expect(getEndpointUrl("ppt", "pdf")).toBe("/api/v1/convert/file/pdf");
+      expect(getEndpointUrl("ppsx", "pdf")).toBe("/api/v1/convert/file/pdf");
       expect(getEndpointUrl("odp", "pdf")).toBe("/api/v1/convert/file/pdf");
 
       // Images to PDF
@@ -220,6 +222,7 @@ describe("convertUtils", () => {
       // Presentations to PDF
       expect(isConversionSupported("pptx", "pdf")).toBe(true);
       expect(isConversionSupported("ppt", "pdf")).toBe(true);
+      expect(isConversionSupported("ppsx", "pdf")).toBe(true);
       expect(isConversionSupported("odp", "pdf")).toBe(true);
 
       // Images to PDF

@@ -258,6 +258,7 @@ public class EmlParser {
             default -> {
                 if (lower.contains("wordprocessingml") || lower.contains("msword")) yield ".docx";
                 if (lower.contains("spreadsheetml") || lower.contains("excel")) yield ".xlsx";
+                if (lower.contains("presentationml.slideshow")) yield ".ppsx";
                 if (lower.contains("presentationml") || lower.contains("powerpoint")) yield ".pptx";
                 if (lower.contains("opendocument.text")) yield ".odt";
                 if (lower.contains("opendocument.spreadsheet")) yield ".ods";

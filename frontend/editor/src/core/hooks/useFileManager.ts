@@ -59,6 +59,7 @@ export const useFileManager = () => {
           "docx",
           "ppt",
           "pptx",
+          "ppsx",
           "xls",
           "xlsx",
           "png",

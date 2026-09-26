@@ -89,6 +89,7 @@ export const isOfficeFormat = (extension: string): boolean => {
     "ods", // Spreadsheets
     "pptx",
     "ppt",
+    "ppsx",
     "odp", // Presentations
   ].includes(extension.toLowerCase());
 };

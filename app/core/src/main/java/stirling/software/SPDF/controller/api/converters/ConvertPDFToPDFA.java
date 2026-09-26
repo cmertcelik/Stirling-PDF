@@ -162,6 +162,9 @@ public class ConvertPDFToPDFA {
                     Map.entry(
                             ".pptx",
                             "application/vnd.openxmlformats-officedocument.presentationml.presentation"),
+                    Map.entry(
+                            ".ppsx",
+                            "application/vnd.openxmlformats-officedocument.presentationml.slideshow"),
                     Map.entry(".svg", "image/svg+xml"),
                     Map.entry(".webp", "image/webp"),
                     Map.entry(".mp3", "audio/mpeg"),

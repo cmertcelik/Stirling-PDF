@@ -14,6 +14,7 @@ export const CONVERT_SUPPORTED_FORMATS = [
   "dif",
   "ppt",
   "pptx",
+  "ppsx",
   // OpenDocument
   "odt",
   "ott",

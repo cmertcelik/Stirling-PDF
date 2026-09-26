@@ -28,7 +28,7 @@ public enum ToolFormat {
     ZIP("zip", "rar", "7z", "tar", "gz", "bz2", "xz", "lz", "lzma", "z"),
 
     WORD("doc", "docx", "odt", "rtf"),
-    PPT("ppt", "pptx", "odp"),
+    PPT("ppt", "pptx", "ppsx", "odp"),
     EXCEL("xls", "xlsx", "ods"),
     CSV("csv"),
     HTML("html", "htm", "xhtml"),
